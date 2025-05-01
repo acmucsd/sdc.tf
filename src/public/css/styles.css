@@ -101,9 +101,14 @@ html, body {
 	font-size: 2.75rem;
 	padding: 0 2rem;
 }
-.hero-presents > strong { 
+.hero-presents > a { 
 	color: var(--orange);
 	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+}
+.hero-presents > a:hover {
+	text-decoration: underline;
 }
 .hero-presents > span {
 	display: inline-block;
@@ -334,6 +339,13 @@ div.sponsor a {
 }
 .copyright {
 	margin-bottom: 1rem;
+}
+.copyright a {
+	color: inherit;
+	text-decoration: none;
+}
+.copyright a:hover {
+	text-decoration: underline;
 }
 
 /* Responsive queries go here */

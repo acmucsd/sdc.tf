@@ -1,9 +1,9 @@
 [
 	{
 		"sitename": "index",
-		"title": "SDCTF 2024",
+		"title": "SDCTF 2025",
 		"metaimg": "/img/meta.jpg",
-		"description": "San Diego CTF 2024 by ACM Cyber at UCSD",
+		"description": "San Diego CTF 2025 by ACM Cyber at UCSD",
 		"jsfiles": [
 			"/js/index.js"
 		],
