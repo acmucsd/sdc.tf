@@ -1,0 +1,16 @@
+[
+	{
+		"sitename": "index",
+		"title": "SDCTF 2024",
+		"metaimg": "/img/meta.jpg",
+		"description": "San Diego CTF 2024 by ACM Cyber at UCSD",
+		"jsfiles": [
+			"/js/index.js"
+		],
+		"cssfiles": [
+			"/css/fonts.css",
+			"/css/styles.css"
+		],
+		"themecolor": "#F19A3E"
+	}
+]

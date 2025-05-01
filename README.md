@@ -2,4 +2,4 @@
 
 The official landing page website for San Diego CTF.
 
-Used a template by the talented Jacobo Martínez.
+Inspired by a template created by the talented Jacobo Martínez.
