@@ -1,6 +1,6 @@
 import * as React from "react";
 import {Component} from "react";
-import {FACEBOOK, LINKEDIN, TWITTER} from "./Config";
+import {FACEBOOK, LINKEDIN, TWITTER, WEBSITE} from "./Config";
 
 interface FooterProps {}
 interface FooterState {}
@@ -23,7 +23,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
 					<a className="fa fa-facebook" href={FACEBOOK}></a>
 					<a className="fa fa-twitter" href={TWITTER}></a>
 				</div>
-				<div className="copyright">© 2024 - ACM Cyber</div>
+				<div className="copyright">© 2025 - <a href={WEBSITE}>ACM Cyber</a></div>
 			</div>
 		</div>;
 	}

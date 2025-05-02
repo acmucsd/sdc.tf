@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Component} from "react";
 import Button from "./Button"
-import {SIGNUP_URL} from "./Config"
+import {SIGNUP_URL, WEBSITE} from "./Config"
 
 interface HeroProps {}
 interface HeroState {}
@@ -15,16 +15,16 @@ export default class Hero extends Component<HeroProps, HeroState> {
 	public render() {
 		return <div className="hero">
 			<div className="hero-presents">
-				<strong>ACM Cyber&nbsp;</strong> 
+				<a href={WEBSITE}>ACM Cyber</a>&nbsp;
 				<span>at UCSD presents</span>
 			</div>
-			<img className="logo" src="svg/sdctf-no-palm.svg" alt="SDCTF 2024 Logo"></img>
+			<img className="logo" src="svg/sdctf-no-palm.svg" alt="SDCTF 2025 Logo"></img>
 			<div className="hero-date">
 				<span>
-					<strong>Friday</strong> May 10th, 5pm - 
+					<strong>Friday</strong> May 9th, 5pm -&nbsp;
 				</span>
 				<span>
-					<strong>Sunday</strong> May 12th, 5pm (PDT)
+					<strong>Sunday</strong> May 11th, 5pm (PDT)
 				</span>
 			</div>
 			<Button link={SIGNUP_URL}>Join Now</Button>

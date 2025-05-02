@@ -32,8 +32,8 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           npm i
           rm .gitignore
-          webpack
-          tsc
+          npx webpack
+          npx tsc
           node build/index.js generate
           rm build/index.js
           rm build/public/template.html
