@@ -21,10 +21,10 @@ export default class Hero extends Component<HeroProps, HeroState> {
 			<img className="logo" src="svg/sdctf-no-palm.svg" alt="SDCTF 2025 Logo"></img>
 			<div className="hero-date">
 				<span>
-					<strong>Friday</strong> May 9th, 5pm -&nbsp;
+					<strong>Friday</strong> May 9th, 4pm -&nbsp;
 				</span>
 				<span>
-					<strong>Sunday</strong> May 11th, 5pm (PDT)
+					<strong>Sunday</strong> May 11th, 4pm (PDT)
 				</span>
 			</div>
 			<Button link={SIGNUP_URL}>Join Now</Button>
