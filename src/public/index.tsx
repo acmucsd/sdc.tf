@@ -41,11 +41,10 @@ export default class Main extends Component<MainProps, MainState> {
 			]}>
 			</Section>
 			<Section classes="infra" title={"Infra\u00ADstruct\u00ADure"} img="img/discord.jpg" alt="Discord's old logo" text={[
-				"The competition interface is hosted entirely on the chat application Discord and facilitated by a one-of-a-kind Discord bot. Everything from team management, to challenge issuing to flag submission is handled by our bot. No web interface necessary.", 
-				"Signups are now open."
+				"We're using rCTF for our web platform this year.", 
+				"Signups are not yet open."
 			]}>
-				<a style={{display: "inline-block", marginBottom: "1.5em"}} href="https://github.com/GZTimeWalker/GZCTF">GZCTF Repo</a>
-				<Button link={SIGNUP_URL}>Sign Up</Button>
+				{/* <Button link={SIGNUP_URL}>Sign Up</Button> */}
 			</Section>
 			<Section classes="sponsor" heading={"SPONSOR\u00ADSHIP"} headerurl="svg/triangle-cyan.svg" text={[
 				`We are actively looking for sponsors! If you are interested, check out our [official sponsorship packet](${SPONSOR_PACKET}) and then get in touch with us below.`
