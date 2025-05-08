@@ -1,0 +1,1 @@
+(()=>{var __webpack_modules__={"./src/public/404.tsx":()=>{eval("\n\n//# sourceURL=webpack://sdc.tf/./src/public/404.tsx?")}},__webpack_exports__={};__webpack_modules__["./src/public/404.tsx"]()})();

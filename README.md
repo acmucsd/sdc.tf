@@ -1,5 +1,1 @@
-# sdc.tf
-
-The official landing page website for San Diego CTF.
-
-Inspired by a template created by the talented Jacobo Martínez.
+# DO NOT MANUALLY PUSH TO THIS BRANCH, ANY WORK DONE WILL BE ERASED. ITS WORK COMES FROM MAIN AND IT WILL BE REWRITTEN THE NEXT TIME AN ACTION OCCURS ON THE MAIN BRANCH
