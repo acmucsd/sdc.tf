@@ -43,9 +43,9 @@ export default class Main extends Component<MainProps, MainState> {
 			</Section>
 			<Section classes="infra" title={"Infra\u00ADstruct\u00ADure"} img="img/discord.jpg" alt="Discord's old logo" text={[
 				"We're using rCTF for our web platform this year.", 
-				"Signups are not yet open."
+				"Signups are open."
 			]}>
-				{/* <Button link={SIGNUP_URL}>Sign Up</Button> */}
+				{<Button link={"https://ctf.sdc.tf"}>Sign Up</Button>}
 			</Section>
 			<Section classes="sponsor" heading={"SPONSOR\u00ADSHIP"} headerurl="svg/triangle-cyan.svg" text={[
 				`We are actively looking for sponsors! If you are interested, check out our [official sponsorship packet](${SPONSOR_PACKET}) and then get in touch with us below.`
