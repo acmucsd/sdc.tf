@@ -35,9 +35,10 @@ export default class Main extends Component<MainProps, MainState> {
 				))}
 			</Section>
 			<Section classes="ucsd" title="UCSD Students" img="img/students.jpg" alt="Competitors gathered around a table looking at laptops" text={[
-				"This year, we have a prize pool of $1,500 for all teams of UCSD students! For logistical reasons, teams with non-UCSD students are not eligible for prizes.",
-				"This year's prize distribution is $750 for first place, $350 for second place, and $150 for third place.",
-				"Finally, the remaining $250 will be distributed to the best challenge writeups!"
+				"This year, we have a prize pool of $1,500!",
+				"This year's prize distribution is $256 for first place and $128 for second and third place.",
+				"If you are a UCSD Student Team, the prize distribution is $512 for first place, $256 for second place, and $128 for third place.",
+				"Finally, the remaining amount will be distributed to the best challenge writeups!"
 			]}>
 			</Section>
 			<Section classes="infra" title={"Infra\u00ADstruct\u00ADure"} img="img/discord.jpg" alt="Discord's old logo" text={[
